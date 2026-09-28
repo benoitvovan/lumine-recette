@@ -1,1 +1,7 @@
-
+name: CI
+on: [pull_request]
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ok"
