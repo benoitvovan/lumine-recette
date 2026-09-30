@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "lumine": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${LUMINE_MCP_PATH}"],
+      "env": {
+        "LUMINE_AGENT_TOKEN": "${LUMINE_AGENT_TOKEN}",
+        "LUMINE_URL": "${LUMINE_URL:-https://lumine.vben.fr}"
+      }
+    }
+  }
+}
