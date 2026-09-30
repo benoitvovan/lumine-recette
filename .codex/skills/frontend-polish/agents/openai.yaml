@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Polish"
+  short_description: "Audit et finition UI React/Next avec verification responsive."
+  default_prompt: "Utilise $frontend-polish pour auditer et polir cette interface."

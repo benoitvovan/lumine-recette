@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Doctor"
+  short_description: "Audite la configuration Codex locale sans modifier les fichiers."
+  default_prompt: "Utilise $codex-doctor pour verifier ma configuration Codex locale."
